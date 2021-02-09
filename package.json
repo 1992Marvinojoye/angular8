@@ -1,0 +1,38 @@
+{
+  "name": "anguler8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build":"browserify app.js -o bundle.js",
+    "start": "ng serve"
+    // "start": "node node_modules/react-scripts/scripts/start.js",
+    // "build": "node node_modules/react-scripts/scripts/build.js",
+    // "test": "node node_modules/react-scripts/scripts/test.js",
+    // "eject": "node node_modules/react-scripts/scripts/eject.js"
+  },
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "ngreact": "^0.5.2",
+    "react-angular": "^0.4.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^3.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
