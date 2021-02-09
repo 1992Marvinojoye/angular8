@@ -1,0 +1,23 @@
+{
+  "name": "anguler8",
+  "description": "multiapp",
+  "main": "app.js",
+  "keywords": [
+    "lybarie-bulding"
+  ],
+  "authors": [
+    "Marvin Ojoye"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "fontawesome": "^5.12.0",
+    "jquery": "^3.4.1",
+    "angular": "^1.7.9",
+    "bootstrap": "^4.4.1",
+    "pug": "^1.11.0",
+    "react": "16",
+    "react-angular": "^0.4.0",
+    "babel": "^5.8.38"
+  }
+}
